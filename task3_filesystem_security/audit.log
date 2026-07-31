@@ -1,0 +1,6 @@
+User: ram | Action: CREATE | File: notes.txt | Result: OK
+User: ram | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: WRITE | File: notes.txt | Result: DENIED
+User: hari | Action: READ | File: notes.txt | Result: DENIED
+User: ram | Action: DELETE | File: notes.txt | Result: OK

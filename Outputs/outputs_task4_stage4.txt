@@ -1,0 +1,6 @@
+Login: AUTH_OK
+Sent: hello server | Reply: ACK
+Sent: second message | Reply: ACK
+Login: AUTH_OK
+Sent: hello server | Reply: ACK
+Sent: second message | Reply: REJECT

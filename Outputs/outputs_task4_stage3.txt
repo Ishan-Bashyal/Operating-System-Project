@@ -1,0 +1,4 @@
+Login: AUTH_OK
+Sent: hello there | Reply: ACK hello there
+Sent: how are you | Reply: ACK how are you
+Login: AUTH_FAIL

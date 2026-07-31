@@ -1,0 +1,3 @@
+Connected to the server.
+Sent: hello there | Reply: ACK hello there
+Sent: second message | Reply: ACK second message

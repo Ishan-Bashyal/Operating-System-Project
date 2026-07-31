@@ -1,0 +1,52 @@
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2 
+
+FIFO with 3 frames
+Page 7: Fault (loaded)
+Page 0: Fault (loaded)
+Page 1: Fault (loaded)
+Page 2: Fault (replaced 7)
+Page 0: Hit
+Page 3: Fault (replaced 0)
+Page 0: Fault (replaced 1)
+Page 4: Fault (replaced 2)
+Page 2: Fault (replaced 3)
+Page 3: Fault (replaced 0)
+Page 0: Fault (replaced 4)
+Page 3: Hit
+Page 2: Hit
+
+Total page faults: 10
+Hit ratio: 23%
+Fault ratio: 77%
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2 
+
+LRU with 3 frames
+Page 7: Fault (loaded)
+Page 0: Fault (loaded)
+Page 1: Fault (loaded)
+Page 2: Fault (replaced 7)
+Page 0: Hit
+Page 3: Fault (replaced 1)
+Page 0: Hit
+Page 4: Fault (replaced 2)
+Page 2: Fault (replaced 3)
+Page 3: Fault (replaced 0)
+Page 0: Fault (replaced 4)
+Page 3: Hit
+Page 2: Hit
+
+Total page faults: 9
+Hit ratio: 31%
+Fault ratio: 69%
+Reference String: 7 0 1 2 0 3 0 4 2 3 0 3 2 
+
+Frames: 3
+FIFO - Faults: 10 | Fault Ratio: 77% | Hit Ratio: 23%
+LRU  - Faults: 9 | Fault Ratio: 69% | Hit Ratio: 31%
+LRU performed better.
+
+Frames: 4
+FIFO - Faults: 7 | Fault Ratio: 54% | Hit Ratio: 46%
+LRU  - Faults: 6 | Fault Ratio: 46% | Hit Ratio: 54%
+LRU performed better.
+

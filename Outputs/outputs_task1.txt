@@ -1,0 +1,43 @@
+Creating 3 threads...
+Thread 0: Step 1
+Thread 0: Step 2
+Thread 0: Step 3
+Thread 1: Step 1
+Thread 1: Step 2
+Thread 1: Step 3
+Thread 2: Step 1
+Thread 2: Step 2
+Thread 2: Step 3
+All threads have finished.
+Expected final counter: 3000
+Actual final counter:   1001
+Race condition occurred: YES
+Expected final counter: 3000
+Actual final counter:   3000
+Correct every time now: YES
+Thread 1: Locked A, waiting for B...
+Thread 2: Locked B, waiting for A...
+
+Both threads are still waiting.
+Deadlock detected.
+Thread 1: Both locks acquired.
+Thread 2: Both locks acquired.
+
+Both threads finished.
+Deadlock prevented.
+Round Robin Scheduling (Quantum = 2)
+Processes: P1=5, P2=3, P3=4
+
+P1: 0 to 2 (Remaining: 3)
+P2: 2 to 4 (Remaining: 1)
+P3: 4 to 6 (Remaining: 2)
+P1: 6 to 8 (Remaining: 1)
+P2: 8 to 9 (Remaining: 0)
+P2 finished at 9
+P3: 9 to 11 (Remaining: 0)
+P3 finished at 11
+P1: 11 to 12 (Remaining: 0)
+P1 finished at 12
+
+All processes finished.
+Total time: 12

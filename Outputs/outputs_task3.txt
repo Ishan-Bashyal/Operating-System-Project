@@ -1,0 +1,39 @@
+User 'ram' registered.
+User 'shyam' registered.
+
+Ram login: SUCCESS
+Ram with wrong password: FAILED
+Hari login: FAILED
+File 'demo.txt' created.
+Content: Hello, this is the original content.
+File updated.
+Updated content: Content has been updated.
+File deleted.
+File exists: No
+File: notes.txt
+Owner: ram
+
+ram      (owner ) Read: Allowed
+ram      (owner ) Write: Allowed
+shyam    (group ) Read: Allowed
+shyam    (group ) Write: Denied
+gita     (others) Read: Denied
+gita     (others) Write: Denied
+Original: This is a confidential file.
+Encrypted: 39 11 02 16 59 04 0a 4b 04 59 0e 16 05 03 10 09 1c 05 11 10 0c 15 4b 03 10 01 1c 45 
+Decrypted: This is a confidential file.
+Match: Yes
+User: ram | Action: CREATE | File: notes.txt | Result: OK
+User: ram | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: WRITE | File: notes.txt | Result: DENIED
+User: hari | Action: READ | File: notes.txt | Result: DENIED
+User: ram | Action: DELETE | File: notes.txt | Result: OK
+
+Audit log saved.
+User: ram | Action: CREATE | File: notes.txt | Result: OK
+User: ram | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: READ | File: notes.txt | Result: OK
+User: shyam | Action: WRITE | File: notes.txt | Result: DENIED
+User: hari | Action: READ | File: notes.txt | Result: DENIED
+User: ram | Action: DELETE | File: notes.txt | Result: OK

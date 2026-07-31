@@ -1,0 +1,3 @@
+Connected to the server.
+Message sent: Hello from the client!
+Reply: Hello from the server!
